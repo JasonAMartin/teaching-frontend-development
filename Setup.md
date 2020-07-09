@@ -103,3 +103,21 @@ If you fail at this step, you're not ready to proceed.
 
 Once you've succeeded with this step, proceed.
 
+## VSC SETUP
+
+If you're using VSC, look in the **vsc** folder. You will find a list of extentions to install and a settings JSON to copy/paste.
+
+Do all of that and your VSC will be ready to go.
+
+Rather than adding all of those extensions one by one, you can use the terminal to do it in a batch.
+
+Look at the file **vsc/vsc.sh** as an example.
+
+For those using a **BASH** shell, you can just navigate to the **vsc** folder in your terminal and type the following commands:
+
+```
+chmod +x vsc.sh
+./vsc.sh
+```
+
+And if you're using a **zsh** shell (Macs usually), just replace *bash* with *zsh* in the **vsc.sh** file.
