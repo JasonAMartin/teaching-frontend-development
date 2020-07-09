@@ -1,0 +1,157 @@
+{
+  "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+  "auto-close-tag.SublimeText3Mode": true,
+  "bracket-pair-colorizer-2.colors": [
+    "crimson",
+    "darkorange",
+    "mediumseagreen",
+    "LightSkyBlue"
+  ],
+  "color-highlight.markerType": "dot-before",
+  "editor.cursorStyle": "block",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [150],
+  "editor.tabSize": 2,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorWidth": 20,
+  "editor.lineHeight": 24,
+  "editor.renderIndentGuides": true,
+  "files.trimTrailingWhitespace": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "indentRainbow.colors": [
+    "rgba(16,16,16,0.02)",
+    "rgba(16,16,16,0.03)",
+    "rgba(16,16,16,0.05)",
+    "rgba(16,16,16,0.08)",
+    "rgba(16,16,16,0.1)"
+  ],
+  "npm.enableScriptExplorer": true,
+  "todohighlight.isCaseSensitive": true,
+  "telemetry.enableTelemetry": false,
+  "todohighlight.keywords": [
+    {
+      "text": "DEPRECATED",
+      "color": "black",
+      "backgroundColor": "yellow"
+    },
+    {
+      "text": "FIXME",
+      "color": "white",
+      "backgroundColor": "red"
+    },
+    {
+      "text": "REVIEW",
+      "color": "blue",
+      "backgroundColor": "white"
+    },
+    {
+      "text": "STUB",
+      "color": "white",
+      "backgroundColor": "grey"
+    },
+    {
+      "text": "TODO",
+      "color": "white",
+      "backgroundColor": "green"
+    }
+  ],
+  "todo-tree.tags": ["DEPRECATED", "FIXME", "REVIEW", "STUB", "TODO"],
+  "todo-tree.customHighlight": {
+    "DEPRECATED": {
+      "icon": "stop",
+      "iconColour": "yellow"
+    },
+    "FIXME": {
+      "icon": "alert",
+      "iconColour": "red"
+    },
+    "REVIEW": {
+      "icon": "search",
+      "iconColour": "white"
+    },
+    "STUB": {
+      "icon": "beaker",
+      "iconColour": "grey"
+    },
+    "TODO": {
+      "icon": "pin",
+      "type": "line"
+    }
+  },
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground": "#20b0f3",
+    "tab.activeBorder": "#ff0000",
+    "tab.activeBackground": "#707070",
+    "titleBar.activeBackground": "#999"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.opacity": 0.72,
+  "workbench.colorTheme": "Verdandi",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "window.title": "${activeEditorLong} ${dirty}",
+  "explorer.sortOrder": "type",
+  "codemetrics.basics.ComplexityLevelExtremeDescription": "Most fail, this one has.",
+  "codemetrics.basics.ComplexityLevelHighDescription": "This one has failed ...",
+  "codemetrics.basics.ComplexityLevelNormalDescription": "Starting to fail.",
+  "codemetrics.basics.ComplexityLevelLowDescription": "Readable...",
+  "codemetrics.basics.ComplexityLevelNormal": 8,
+  "codemetrics.basics.ComplexityLevelHigh": 10,
+  "codemetrics.basics.CodeLensHiddenUnder": 4,
+  "explorer.openEditors.visible": 0,
+  "workbench.settings.editor": "json",
+  "todo-tree.highlights.customHighlight": {
+    "DEPRECATED": {
+      "icon": "stop",
+      "iconColour": "yellow"
+    },
+    "FIXME": {
+      "icon": "alert",
+      "iconColour": "red"
+    },
+    "REVIEW": {
+      "icon": "search",
+      "iconColour": "white"
+    },
+    "STUB": {
+      "icon": "beaker",
+      "iconColour": "grey"
+    },
+    "TODO": {
+      "icon": "pin",
+      "type": "line"
+    }
+  },
+  "todo-tree.general.tags": [
+    "DEPRECATED",
+    "FIXME",
+    "REVIEW",
+    "STUB",
+    "TODO"
+  ],
+  "breadcrumbs.enabled": true,
+  "javascript.implicitProjectConfig.checkJs": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "local-history.daysLimit": 365,
+  "local-history.maxDisplay": 10,
+  "local-history.saveDelay": 0,
+  "todo-tree.tree.showScanModeButton": false,
+  "solargraph.diagnostics": true,
+  "solargraph.completion": true,
+  "solargraph.hover": true,
+  "solargraph.formatting": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "[json]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  }
+}
