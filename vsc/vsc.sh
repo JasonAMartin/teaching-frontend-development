@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 vsc_add_extensions() {
 	while read -r LINE; do
